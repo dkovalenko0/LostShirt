@@ -10,12 +10,17 @@
 
 html,
 body {
+  height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
 
 body {
+  font: 16px / 1.42em "Roboto", Arial, sans-serif;
+  color: #212121;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
   margin: 0;
 }
 
@@ -45,3 +50,7 @@ p {
   margin: 0;
 }
 
+.wrapper {
+  min-width: 1310px;
+  overflow: hidden;
+}
